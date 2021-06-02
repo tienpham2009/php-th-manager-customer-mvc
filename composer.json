@@ -1,0 +1,22 @@
+{
+  "name": "vendor_name/th-manager-customer-mvc2",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "tienpham2009",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Controller\\": "App/Controller",
+      "Models\\": "App/Models",
+      "App\\": "App"
+    }
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
